@@ -21,8 +21,8 @@ provider "databricks" {
 
 # Unity Catalog for Quantum Hybrid Diffusion Models & Zerobus Ingestion
 resource "databricks_catalog" "quantum_catalog" {
-  name         = var.catalog_name
-  comment      = "Unity Catalog for Quantum Hybrid Diffusion & Zerobus Ingestion Telemetry"
+  name    = var.catalog_name
+  comment = "Unity Catalog for Quantum Hybrid Diffusion & Zerobus Ingestion Telemetry"
   properties = {
     purpose = "Quantum Machine Learning & Data Ingestion"
   }

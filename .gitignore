@@ -46,3 +46,13 @@ yarn-error.log*
 *.swo
 .DS_Store
 Thumbs.db
+
+# Local secrets (never commit)
+.env
+.env.*
+!.env.example
+
+*.pyc
+.next/
+build/
+.terraform/
